@@ -2,7 +2,7 @@
 
 # Keep the pwd in mind!
 RUN="java -jar target/bus-route-challenge-0.1.0.jar"
-NAME=bus
+NAME=bus-route-challenge
 ARGS_NO=$#
 
 if [ $ARGS_NO -lt 1 ] 
